@@ -1,11 +1,14 @@
+html {
+    overflow-x: hidden;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: RGB(238, 238, 238);
-    overflow-x: hidden;
 }
+
 .left-align{
     padding-left: 3rem;
 }
@@ -366,6 +369,10 @@ footer{
 /* Responsiveness for different screen sizes*/
 
 @media screen and (max-width: 768px) { 
+    html {
+        overflow-x: hidden;
+      }
+     
     .nav-items{
         left: 2rem;
     }
@@ -386,6 +393,9 @@ footer{
 }
 
 @media screen and (max-width: 425px) { 
+    html {
+        overflow-x: hidden;
+    }
     .section-introduction h1, .section-introduction p, .section-introduction button{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -441,6 +451,9 @@ footer{
 }
 
 @media screen and (max-width: 375px) { 
+    html {
+        overflow-x: hidden;
+    }
     .section-introduction{
         background-size: 60rem 54.7rem ;
         background-repeat: no-repeat;
@@ -474,6 +487,9 @@ footer{
 }
 
 @media screen and (max-width: 320px) { 
+    html {
+        overflow-x: hidden;
+    }
     .section-introduction h1, .section-introduction p, .section-introduction button{
         margin-left: 0.5rem;
         margin-right: 0.5rem;
