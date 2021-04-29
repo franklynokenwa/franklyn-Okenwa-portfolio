@@ -369,10 +369,12 @@ footer{
 /* Responsiveness for different screen sizes*/
 
 @media screen and (max-width: 768px) { 
-    html {
+    html, body {
         overflow-x: hidden;
-      }
-     
+    }
+    body{
+        position: relative;
+    } 
     .nav-items{
         left: 2rem;
     }
