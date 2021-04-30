@@ -110,6 +110,9 @@ nav{
 .section-introduction{
     background-color: RGB(36, 38, 51);
     background: url("images/laptop-1512838_1280.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .section-introduction-container{
     background: rgba(0, 0, 0, 0.8);
@@ -312,14 +315,24 @@ nav{
 
 .projects-container img{
     width: 60rem;
-    height: 30rem;
     border-radius: 10px;
     border: 2px solid orange;
+    object-fit: contain;
+
 }
 .projects-container img:hover{
     filter: drop-shadow(0px 3px 3px #263324);
     transform: translate(0px,-4px);
 }
+/*
+.responsive {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid orange;
+    object-fit: contain;
+    
+}*/
 .projects-container-data{
     width: 60rem;
 }
@@ -444,6 +457,7 @@ footer{
     .nav-items{
         display: none;
     }
+
     .nav-items-responsive a p{  
         margin-left: 0.5rem;
     }
