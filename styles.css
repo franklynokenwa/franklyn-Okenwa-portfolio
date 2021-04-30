@@ -435,6 +435,9 @@ footer{
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .skills-flex i{
+        font-size:7rem;
+    }
 
     .projects-container-head h4, .projects-container-head hr{
         left: -20rem;
