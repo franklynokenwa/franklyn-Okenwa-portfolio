@@ -324,15 +324,7 @@ nav{
     filter: drop-shadow(0px 3px 3px #263324);
     transform: translate(0px,-4px);
 }
-/*
-.responsive {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    border: 2px solid orange;
-    object-fit: contain;
-    
-}*/
+
 .projects-container-data{
     width: 60rem;
 }
@@ -418,6 +410,9 @@ footer{
 
     .div-img--my-photo{
         margin-left: 0;
+    }
+    .projects-coding-tools p{
+        width: 7rem;
     }
     .section-about{
         padding-left: 1rem;
@@ -512,6 +507,9 @@ footer{
     .section-introduction h1, .section-introduction p, .section-introduction button{
         margin-left: 0.5rem;
         margin-right: 0.5rem;
+    }
+    .projects-container-data img{
+        width: 19rem;
     }
 
     .div-img--my-photo{
