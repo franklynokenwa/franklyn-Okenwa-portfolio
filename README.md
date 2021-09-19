@@ -15,7 +15,7 @@ The portfolio was built with HTML, CSS and Javascript.
 
 ### Screenshot
 
-![](https://github.com/franklynwisdom/country-data-app/blob/master/screenshots/country-data-app-screenshot-1.PNG)
+![](https://github.com/franklynwisdom/franklyn-Okenwa-portfolio/blob/master/portfolio-home-page.png)
 
 ### Link
 - Live Site URL: (https://franklynwisdom.github.io/country-data-app/)
