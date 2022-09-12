@@ -195,6 +195,10 @@ nav{
     padding-top: 3rem;
     padding-bottom: 4rem;
 }
+.section-about img{
+    width: 600px;
+}
+
 .section-experience{
     background-color: RGB(36, 38, 51);
     padding-bottom: 3rem;

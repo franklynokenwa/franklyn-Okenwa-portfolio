@@ -7,11 +7,19 @@ const hamburgerIcon = document.getElementById("hamburger-icon");
 const close = document.getElementById("close");
 const navItemsResponsive = document.getElementById("nav-items-responsive");
 const navResponsiveItem = document.querySelectorAll("#nav-responsive-item");
+const footerYear = document.getElementById("footer-year");
 
 
 hamburgerIcon.addEventListener('click' ,showMenu);
 close.addEventListener('click' ,closeMenu);
 
+function getYear() {
+    let date = new Date().toLocaleDateString("en-US", {
+        "year": "numeric"
+    });
+    footerYear.textContent = date;
+}
+getYear();
 
 function showMenu(){
     if(navItemsResponsive.style.display==='none'){
