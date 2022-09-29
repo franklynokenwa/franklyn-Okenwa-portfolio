@@ -75,7 +75,6 @@ nav {
   top: -3.5rem;
   z-index: 1;
   cursor: pointer;
-
 }
 
 .nav-items-responsive a p {
@@ -388,7 +387,7 @@ footer {
     overflow-x: hidden;
     position: relative;
   }
- 
+
   .nav-items {
     left: 2rem;
   }
@@ -411,14 +410,13 @@ footer {
     width: 500px;
     padding-right: 60px;
   }
-  
 }
 
 @media screen and (max-width: 500px) {
   .section-experience-container1 {
     width: 450px;
   }
-  .section-introduction-container div p{
+  .section-introduction-container div p {
     width: 27rem;
     padding-right: 1rem;
   }
@@ -448,42 +446,35 @@ footer {
   .nav-items {
     display: none;
   }
-  
-  .nav-items-responsive{
+
+  .nav-items-responsive {
     height: 100vh;
     position: fixed;
     overflow-y: hidden;
     z-index: 0;
-   
   }
-  #close{
+  #close {
     z-index: 1;
     left: 28rem;
   }
-  body{
-    overflow-x: visible;
-  }
-  .nav-items-responsive a p{
+
+  .nav-items-responsive a p {
     position: relative;
     left: 2rem;
     width: 350px;
     top: 3rem;
     text-align: center;
   }
-  
 }
 
 @media screen and (max-width: 425px) {
-  html {
-    overflow-x: hidden;
-  }
   .section-introduction h1,
   .section-introduction p,
   .section-introduction button {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .section-introduction-container div p{
+  .section-introduction-container div p {
     width: 22rem;
   }
 
@@ -530,8 +521,6 @@ footer {
     margin-left: 1rem;
   }
 
-  
-
   .nav-items-responsive a p {
     font-size: 3rem;
     left: -1.9rem;
@@ -539,23 +528,17 @@ footer {
   .logo {
     margin-left: -2rem;
   }
-  #close{
+  #close {
     left: 20rem;
   }
 }
 
 @media screen and (max-width: 375px) {
-  html {
-    overflow-x: hidden;
-  }
-  body{
-    overflow-x: visible;
-  }
   .section-introduction {
     background-size: 60rem 54.7rem;
     background-repeat: no-repeat;
   }
-  .section-introduction-container div p{
+  .section-introduction-container div p {
     width: 22rem;
   }
   .nav-items-responsive a p {
@@ -588,22 +571,19 @@ footer {
     font-size: 0.9rem;
     margin-left: 1rem;
   }
-  #close{
+  #close {
     left: 18rem;
   }
 }
 
 @media screen and (max-width: 320px) {
-  html {
-    overflow-x: hidden;
-  }
   .section-introduction h1,
   .section-introduction p,
   .section-introduction button {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
-  .section-introduction-container div p{
+  .section-introduction-container div p {
     width: 19rem;
   }
   .projects-container-data img {
@@ -617,7 +597,7 @@ footer {
     width: 300px;
     font-size: 0.8rem;
   }
-  .projects-coding-tools{
+  .projects-coding-tools {
     width: 19rem;
   }
 
